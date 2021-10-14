@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/maciej-krawczynscam/static/css/main.6d4c17b2.chunk.css",
+    "main.js": "/maciej-krawczynscam/static/js/main.5c5d40e1.chunk.js",
+    "main.js.map": "/maciej-krawczynscam/static/js/main.5c5d40e1.chunk.js.map",
+    "runtime-main.js": "/maciej-krawczynscam/static/js/runtime-main.d37c7034.js",
+    "runtime-main.js.map": "/maciej-krawczynscam/static/js/runtime-main.d37c7034.js.map",
+    "static/js/2.ed2b103e.chunk.js": "/maciej-krawczynscam/static/js/2.ed2b103e.chunk.js",
+    "static/js/2.ed2b103e.chunk.js.map": "/maciej-krawczynscam/static/js/2.ed2b103e.chunk.js.map",
+    "static/js/3.15897d01.chunk.js": "/maciej-krawczynscam/static/js/3.15897d01.chunk.js",
+    "static/js/3.15897d01.chunk.js.map": "/maciej-krawczynscam/static/js/3.15897d01.chunk.js.map",
+    "index.html": "/maciej-krawczynscam/index.html",
+    "static/css/main.6d4c17b2.chunk.css.map": "/maciej-krawczynscam/static/css/main.6d4c17b2.chunk.css.map",
+    "static/js/2.ed2b103e.chunk.js.LICENSE.txt": "/maciej-krawczynscam/static/js/2.ed2b103e.chunk.js.LICENSE.txt",
+    "static/media/bg.5195be0b.jpg": "/maciej-krawczynscam/static/media/bg.5195be0b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d37c7034.js",
+    "static/js/2.ed2b103e.chunk.js",
+    "static/css/main.6d4c17b2.chunk.css",
+    "static/js/main.5c5d40e1.chunk.js"
+  ]
+}
