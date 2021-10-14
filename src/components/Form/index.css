@@ -44,13 +44,16 @@
   box-sizing: border-box;
   color: white;
   cursor: pointer;
-  display: inline-block;
   font-size: 22px;
-  margin: 6px;
+  width: 35%;
+  margin: 6px auto;
   min-width: 200px;
   padding: 5px;
   text-transform: uppercase;
-  width: auto;
+}
+
+.main-form__button--accept {
+  background: #005800;
 }
 
 .main-form__button--hidden {
@@ -61,13 +64,18 @@
   background: #b42424;
 }
 
-.main-form__button--remove:focus
-.main-form__button--remove:hover {
-  background: #b65f5f;
-}
-
 .main-form__button:focus,
 .main-form__button:hover {
    background: #878585;
  }
+
+.main-form__button--remove:focus,
+.main-form__button--remove:hover {
+  background: #a12126;
+}
+
+.main-form__button--accept:focus,
+.main-form__button--accept:hover {
+  background: #1b401b;
+}
 
