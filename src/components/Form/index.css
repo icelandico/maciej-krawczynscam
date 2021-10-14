@@ -1,0 +1,73 @@
+.main-form {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  color: red;
+}
+
+.main-form__price-info {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.main-form__input-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto 15px;
+}
+
+.main-form__input {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.main-form__input:focus {
+  border: 2px solid red;
+  outline: 2px solid red;
+}
+
+.main-form__input-number {
+  font-size: 34px;
+}
+
+.main-form__button {
+  background: #7C7C7C;
+  border-bottom: 6px inset rgba(0,0,0,.5);
+  border-left: 6px inset rgba(0,0,0,.5);
+  border-right: 6px inset rgba(255,255,255,.5);
+  border-top: 6px inset rgba(255,255,255,.5);
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 22px;
+  margin: 6px;
+  min-width: 200px;
+  padding: 5px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.main-form__button--hidden {
+  visibility: hidden;
+}
+
+.main-form__button--remove {
+  background: #b42424;
+}
+
+.main-form__button--remove:focus
+.main-form__button--remove:hover {
+  background: #b65f5f;
+}
+
+.main-form__button:focus,
+.main-form__button:hover {
+   background: #878585;
+ }
+

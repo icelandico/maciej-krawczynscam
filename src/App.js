@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { WelcomePage } from "./components/WelcomePage/WelcomePage";
+import { Form } from "./components/Form/Form";
 
 const calculateTimeLeft = () => {
   const difference = +new Date('14 Oct 2021 12:24') - +new Date();
@@ -14,7 +15,7 @@ const calculateTimeLeft = () => {
       seconds: Math.floor((difference / 1000) % 60)
     };
   }
-  
+
   return timeLeft;
 }
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <div className="main-app">
-      { Object.keys(timeLeft).length ? <WelcomePage timeLeft={timeLeft}/> : <div>FORM</div> }
+      { Object.keys(timeLeft).length ? <WelcomePage timeLeft={timeLeft}/> : <Form /> }
     </div>
   );
 }
