@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/maciej-krawczynscam/static/css/main.e09def43.chunk.css",
-    "main.js": "/maciej-krawczynscam/static/js/main.2bdb5f85.chunk.js",
-    "main.js.map": "/maciej-krawczynscam/static/js/main.2bdb5f85.chunk.js.map",
-    "runtime-main.js": "/maciej-krawczynscam/static/js/runtime-main.b5f4006f.js",
-    "runtime-main.js.map": "/maciej-krawczynscam/static/js/runtime-main.b5f4006f.js.map",
-    "static/js/2.43299f18.chunk.js": "/maciej-krawczynscam/static/js/2.43299f18.chunk.js",
-    "static/js/2.43299f18.chunk.js.map": "/maciej-krawczynscam/static/js/2.43299f18.chunk.js.map",
-    "static/js/3.7493f380.chunk.js": "/maciej-krawczynscam/static/js/3.7493f380.chunk.js",
-    "static/js/3.7493f380.chunk.js.map": "/maciej-krawczynscam/static/js/3.7493f380.chunk.js.map",
+    "main.css": "/maciej-krawczynscam/static/css/main.48b9b05b.chunk.css",
+    "main.js": "/maciej-krawczynscam/static/js/main.4a1e7074.chunk.js",
+    "main.js.map": "/maciej-krawczynscam/static/js/main.4a1e7074.chunk.js.map",
+    "runtime-main.js": "/maciej-krawczynscam/static/js/runtime-main.46635fba.js",
+    "runtime-main.js.map": "/maciej-krawczynscam/static/js/runtime-main.46635fba.js.map",
+    "static/js/2.52fd2481.chunk.js": "/maciej-krawczynscam/static/js/2.52fd2481.chunk.js",
+    "static/js/2.52fd2481.chunk.js.map": "/maciej-krawczynscam/static/js/2.52fd2481.chunk.js.map",
+    "static/js/3.bb379171.chunk.js": "/maciej-krawczynscam/static/js/3.bb379171.chunk.js",
+    "static/js/3.bb379171.chunk.js.map": "/maciej-krawczynscam/static/js/3.bb379171.chunk.js.map",
     "index.html": "/maciej-krawczynscam/index.html",
-    "static/css/main.e09def43.chunk.css.map": "/maciej-krawczynscam/static/css/main.e09def43.chunk.css.map",
-    "static/js/2.43299f18.chunk.js.LICENSE.txt": "/maciej-krawczynscam/static/js/2.43299f18.chunk.js.LICENSE.txt",
+    "static/css/main.48b9b05b.chunk.css.map": "/maciej-krawczynscam/static/css/main.48b9b05b.chunk.css.map",
+    "static/js/2.52fd2481.chunk.js.LICENSE.txt": "/maciej-krawczynscam/static/js/2.52fd2481.chunk.js.LICENSE.txt",
     "static/media/bg.c048e2f2.jpg": "/maciej-krawczynscam/static/media/bg.c048e2f2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5f4006f.js",
-    "static/js/2.43299f18.chunk.js",
-    "static/css/main.e09def43.chunk.css",
-    "static/js/main.2bdb5f85.chunk.js"
+    "static/js/runtime-main.46635fba.js",
+    "static/js/2.52fd2481.chunk.js",
+    "static/css/main.48b9b05b.chunk.css",
+    "static/js/main.4a1e7074.chunk.js"
   ]
 }
