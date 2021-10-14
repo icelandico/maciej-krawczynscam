@@ -1,0 +1,14 @@
+.main-welcome {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-welcome__hero {
+  height: 100%;
+  width: 100%;
+}
+
+.main-welcome__info-text {
+  font-size: 32px;
+  font-weight: bold;
+}
