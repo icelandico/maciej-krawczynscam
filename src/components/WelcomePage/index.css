@@ -13,3 +13,20 @@
   font-weight: bold;
   color: red;
 }
+
+.m-main__timer-value {
+  color: red;
+  animation: pulsate 3s ease-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    font-size: 18px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 18px;
+  }
+}

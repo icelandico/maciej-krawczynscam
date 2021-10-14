@@ -35,7 +35,7 @@ export const WelcomePage = () => {
     }
 
     timerComponents.push(
-        <span>
+        <span className="m-main__timer-value">
             {timeLeft[interval]} {interval}{" "}
           </span>
     );
