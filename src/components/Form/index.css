@@ -53,7 +53,9 @@
 }
 
 .main-form__button--accept {
+  font-size: 42px;
   background: #005800;
+  width: 45%;
 }
 
 .main-form__button--hidden {
@@ -77,5 +79,9 @@
 .main-form__button--accept:focus,
 .main-form__button--accept:hover {
   background: #1b401b;
+}
+
+.main-form__submit {
+  margin-top: 100px;
 }
 
