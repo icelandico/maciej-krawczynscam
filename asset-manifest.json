@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/maciej-krawczynscam/static/css/main.6d4c17b2.chunk.css",
-    "main.js": "/maciej-krawczynscam/static/js/main.5c5d40e1.chunk.js",
-    "main.js.map": "/maciej-krawczynscam/static/js/main.5c5d40e1.chunk.js.map",
-    "runtime-main.js": "/maciej-krawczynscam/static/js/runtime-main.d37c7034.js",
-    "runtime-main.js.map": "/maciej-krawczynscam/static/js/runtime-main.d37c7034.js.map",
-    "static/js/2.ed2b103e.chunk.js": "/maciej-krawczynscam/static/js/2.ed2b103e.chunk.js",
-    "static/js/2.ed2b103e.chunk.js.map": "/maciej-krawczynscam/static/js/2.ed2b103e.chunk.js.map",
-    "static/js/3.15897d01.chunk.js": "/maciej-krawczynscam/static/js/3.15897d01.chunk.js",
-    "static/js/3.15897d01.chunk.js.map": "/maciej-krawczynscam/static/js/3.15897d01.chunk.js.map",
+    "main.css": "/maciej-krawczynscam/static/css/main.a259f8d0.chunk.css",
+    "main.js": "/maciej-krawczynscam/static/js/main.fd2fe523.chunk.js",
+    "main.js.map": "/maciej-krawczynscam/static/js/main.fd2fe523.chunk.js.map",
+    "runtime-main.js": "/maciej-krawczynscam/static/js/runtime-main.2d3d3efd.js",
+    "runtime-main.js.map": "/maciej-krawczynscam/static/js/runtime-main.2d3d3efd.js.map",
+    "static/js/2.9f0aa2c7.chunk.js": "/maciej-krawczynscam/static/js/2.9f0aa2c7.chunk.js",
+    "static/js/2.9f0aa2c7.chunk.js.map": "/maciej-krawczynscam/static/js/2.9f0aa2c7.chunk.js.map",
+    "static/js/3.2669bbe4.chunk.js": "/maciej-krawczynscam/static/js/3.2669bbe4.chunk.js",
+    "static/js/3.2669bbe4.chunk.js.map": "/maciej-krawczynscam/static/js/3.2669bbe4.chunk.js.map",
     "index.html": "/maciej-krawczynscam/index.html",
-    "static/css/main.6d4c17b2.chunk.css.map": "/maciej-krawczynscam/static/css/main.6d4c17b2.chunk.css.map",
-    "static/js/2.ed2b103e.chunk.js.LICENSE.txt": "/maciej-krawczynscam/static/js/2.ed2b103e.chunk.js.LICENSE.txt",
-    "static/media/bg.5195be0b.jpg": "/maciej-krawczynscam/static/media/bg.5195be0b.jpg"
+    "static/css/main.a259f8d0.chunk.css.map": "/maciej-krawczynscam/static/css/main.a259f8d0.chunk.css.map",
+    "static/js/2.9f0aa2c7.chunk.js.LICENSE.txt": "/maciej-krawczynscam/static/js/2.9f0aa2c7.chunk.js.LICENSE.txt",
+    "static/media/bg.c048e2f2.jpg": "/maciej-krawczynscam/static/media/bg.c048e2f2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d37c7034.js",
-    "static/js/2.ed2b103e.chunk.js",
-    "static/css/main.6d4c17b2.chunk.css",
-    "static/js/main.5c5d40e1.chunk.js"
+    "static/js/runtime-main.2d3d3efd.js",
+    "static/js/2.9f0aa2c7.chunk.js",
+    "static/css/main.a259f8d0.chunk.css",
+    "static/js/main.fd2fe523.chunk.js"
   ]
 }
