@@ -17,6 +17,10 @@ export const Form = () => {
   const [userEmail, setUserEmail] = useState('')
 
   const handleSendForm = (e) => {
+    if (!userEmail) {
+      alert("HOLA! PODAJ MAILA")
+      return
+    }
     setBgBlack(true);
     handleMoveIcon();
     setTimeout(() => {
@@ -26,7 +30,7 @@ export const Form = () => {
           }, (error) => {
             console.log(error.text);
        });
-    }, 4000)
+    }, 3000)
   }
 
   const createPosition = () => {
