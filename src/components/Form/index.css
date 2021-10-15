@@ -5,6 +5,11 @@
   color: red;
 }
 
+.main-form__send-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .main-form__price-info {
   text-decoration: underline;
   font-weight: bold;
@@ -24,6 +29,17 @@
   font-size: 16px;
   text-transform: uppercase;
   margin: 0 10px;
+}
+
+.main-form__input-line--name {
+  justify-content: left;
+  width: 100%;
+}
+
+.main-form__input--name {
+  margin-left: 20px;
+  width: 64%;
+  text-transform: none;
 }
 
 .main-form__input:focus {

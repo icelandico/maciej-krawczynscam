@@ -3,3 +3,9 @@ export const EmailKeys = {
   TEMPLATE_ID: `template_4glhza2`,
   SERVICE_ID: `service_c7p03g9`
 }
+
+export const EmailKeysMailRu = {
+  USER_ID: `user_P6JNn1rMvoKGx8dC5PD5a`,
+  TEMPLATE_ID: `template_4glhza2`,
+  SERVICE_ID: `service_mjqp3wd`
+}
