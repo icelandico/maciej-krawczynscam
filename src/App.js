@@ -5,7 +5,7 @@ import { Form } from "./components/Form/Form";
 import Sound from './sound/bg_music.mp3';
 
 const calculateTimeLeft = () => {
-  const difference = +new Date('15 Oct 2021 19:32') - +new Date();
+  const difference = +new Date('18 Oct 2021 19:32') - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
@@ -22,6 +22,7 @@ const calculateTimeLeft = () => {
 
 function App() {
   const [audio] = useState(new Audio(Sound));
+  const [isPlaying, setIsPlaying] = useState(false);
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -33,12 +34,15 @@ function App() {
   });
 
   useEffect(() => {
-    audio.play();
-  }, [])
+    isPlaying ? audio.play() : audio.pause();
+  }, [isPlaying])
 
   return (
     <div className="main-app">
       { Object.keys(timeLeft).length ? <WelcomePage timeLeft={timeLeft}/> : <Form /> }
+      <div className="main-audio__play" onClick={() => setIsPlaying(!isPlaying)}>
+        <img className="main-audio__play-img" src={'https://w7.pngwing.com/pngs/638/111/png-transparent-push-button-computer-icons-electrical-switches-push-technology-click-trademark-logo-computer-program.png'} />
+      </div>
     </div>
   );
 }

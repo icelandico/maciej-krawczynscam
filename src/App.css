@@ -1,3 +1,15 @@
 .main-app {
   height: 100vh;
 }
+
+.main-audio__play {
+  position: fixed;
+  top: 45%;
+  right: 5%;
+  width: 200px;
+  cursor: pointer;
+}
+
+.main-audio__play-img {
+  width: 200px;
+}
