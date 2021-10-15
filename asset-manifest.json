@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/maciej-krawczynscam/static/css/main.ca4fbf5a.chunk.css",
-    "main.js": "/maciej-krawczynscam/static/js/main.2c85a361.chunk.js",
-    "main.js.map": "/maciej-krawczynscam/static/js/main.2c85a361.chunk.js.map",
+    "main.css": "/maciej-krawczynscam/static/css/main.bf814746.chunk.css",
+    "main.js": "/maciej-krawczynscam/static/js/main.36d0d143.chunk.js",
+    "main.js.map": "/maciej-krawczynscam/static/js/main.36d0d143.chunk.js.map",
     "runtime-main.js": "/maciej-krawczynscam/static/js/runtime-main.46635fba.js",
     "runtime-main.js.map": "/maciej-krawczynscam/static/js/runtime-main.46635fba.js.map",
     "static/js/2.a34032dd.chunk.js": "/maciej-krawczynscam/static/js/2.a34032dd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bb379171.chunk.js": "/maciej-krawczynscam/static/js/3.bb379171.chunk.js",
     "static/js/3.bb379171.chunk.js.map": "/maciej-krawczynscam/static/js/3.bb379171.chunk.js.map",
     "index.html": "/maciej-krawczynscam/index.html",
-    "static/css/main.ca4fbf5a.chunk.css.map": "/maciej-krawczynscam/static/css/main.ca4fbf5a.chunk.css.map",
+    "static/css/main.bf814746.chunk.css.map": "/maciej-krawczynscam/static/css/main.bf814746.chunk.css.map",
     "static/js/2.a34032dd.chunk.js.LICENSE.txt": "/maciej-krawczynscam/static/js/2.a34032dd.chunk.js.LICENSE.txt",
     "static/media/MUCHA SVG.3b76bd9c.svg": "/maciej-krawczynscam/static/media/MUCHA SVG.3b76bd9c.svg",
     "static/media/bg.c048e2f2.jpg": "/maciej-krawczynscam/static/media/bg.c048e2f2.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.46635fba.js",
     "static/js/2.a34032dd.chunk.js",
-    "static/css/main.ca4fbf5a.chunk.css",
-    "static/js/main.2c85a361.chunk.js"
+    "static/css/main.bf814746.chunk.css",
+    "static/js/main.36d0d143.chunk.js"
   ]
 }
