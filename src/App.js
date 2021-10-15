@@ -5,7 +5,7 @@ import { Form } from "./components/Form/Form";
 import Sound from './sound/bg_music.mp3';
 
 const calculateTimeLeft = () => {
-  const difference = +new Date('15 Oct 2021 20:41') - +new Date();
+  const difference = +new Date('18 Oct 2021') - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {

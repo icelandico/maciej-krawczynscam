@@ -104,6 +104,11 @@ export const Form = () => {
           <div className="main-form__submit">
             <div className="main-form__button main-form__button--accept main-form__button-send-form" onClick={(e) => handleSendForm(e)}>WYŚLIJ FORMULARZ !!!!</div>
           </div>
+          <div className="main-form__contact">
+            <p>POMOC TECHNICZNA: </p>
+            <p>VASYL: 603 556 132</p>
+            <p>ŻONA VASYLA: 602 502 150</p>
+          </div>
         </div>
 
       </div>

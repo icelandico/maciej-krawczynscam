@@ -119,6 +119,11 @@
   filter: blur(10px);
 }
 
+.main-form__contact {
+  font-size: 26px;
+  font-weight: bold;
+}
+
 .main-form__modal {
   position: fixed;
   top: 50%;
