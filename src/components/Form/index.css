@@ -5,6 +5,20 @@
   color: red;
 }
 
+.main-form__loader {
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 200px;
+  transition: all 0.5s;
+  z-index: 200;
+}
+
+.main-form__loader--show {
+  opacity: 1;
+}
+
 .main-form__send-form {
   width: 50%;
   margin: 0 auto;
@@ -140,6 +154,12 @@
   }
   100% {
     color: magenta;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform:rotate(360deg);
   }
 }
 

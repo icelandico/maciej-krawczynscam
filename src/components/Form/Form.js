@@ -2,10 +2,13 @@ import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import './index.css';
 import { EmailKeysMailRu } from "../../emailkey";
+import { ReactComponent as MainIcon } from './../../img/MUCHA SVG.svg';
 
 export const Form = () => {
   const formRef = useRef();
+  const iconRef = useRef();
   const [formSent, setFormSent] = useState(false);
+  const [isBgBlack, setBgBlack] = useState(false);
   const [formLines, setFormLines] = useState([{
     id: 1,
     author: "",
@@ -14,13 +17,33 @@ export const Form = () => {
   const [userEmail, setUserEmail] = useState('')
 
   const handleSendForm = (e) => {
-    console.log('form', formRef.current)
-    emailjs.sendForm(EmailKeysMailRu.SERVICE_ID, EmailKeysMailRu.TEMPLATE_ID, formRef.current, EmailKeysMailRu.USER_ID)
-        .then((result) => {
-          setFormSent(true);
-        }, (error) => {
-          console.log(error.text);
-        });
+    setBgBlack(true);
+    handleMoveIcon();
+    setTimeout(() => {
+      emailjs.sendForm(EmailKeysMailRu.SERVICE_ID, EmailKeysMailRu.TEMPLATE_ID, formRef.current, EmailKeysMailRu.USER_ID)
+          .then((result) => {
+            setFormSent(true);
+          }, (error) => {
+            console.log(error.text);
+       });
+    }, 4000)
+  }
+
+  const createPosition = () => {
+    let h = window.innerHeight - 50;
+    let w = window.innerWidth - 50;
+
+    let nh = Math.floor(Math.random() * h);
+    let nw = Math.floor(Math.random() * w);
+    return [nh,nw];
+  }
+
+  const handleMoveIcon = () => {
+    const posInterval = setInterval(() => {
+      const position = createPosition();
+      iconRef.current.style.left = position[1] + 'px'
+      iconRef.current.style.top = position[0] + 'px'
+    }, 400)
   }
 
   const handleRemoveLine = id => {
@@ -45,7 +68,7 @@ export const Form = () => {
 
   return (
       <>
-      <div className={`main-form ${formSent ? 'main-form--sent' : ''}`}>
+      <div className={`main-form ${isBgBlack ? 'main-form--sent' : ''}`}>
         <h1>ZAMÓW COŚ</h1>
         <h1><a href="https://wydawnictwo.krytykapolityczna.pl/" target="_blank">WEJDŹ TU I WYBIERZ SWOJE TOWARY</a></h1>
         <h1>WYPEŁNIJ FORMULARZ</h1>
@@ -83,6 +106,9 @@ export const Form = () => {
         <div className={`main-form__modal ${formSent ? 'main-form__modal--show' : ''}`}>
           <h1>JUŻ ZAŁATWIONE</h1>
           <h1>WIRUS DO CIEBIE JEDZIE</h1>
+        </div>
+        <div className={`main-form__loader ${isBgBlack ? 'main-form__loader--show' : ''}`} ref={iconRef}>
+          <MainIcon />
         </div>
       </>
   );
