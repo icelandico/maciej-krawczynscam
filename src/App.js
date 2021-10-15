@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { WelcomePage } from "./components/WelcomePage/WelcomePage";
 import { Form } from "./components/Form/Form";
+import Sound from './sound/bg_music.mp3';
 
 const calculateTimeLeft = () => {
-  const difference = +new Date('14 Oct 2021 12:24') - +new Date();
+  const difference = +new Date('18 Oct 2021 12:24') - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
@@ -20,6 +21,7 @@ const calculateTimeLeft = () => {
 }
 
 function App() {
+  const [audio] = useState(new Audio(Sound));
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -29,6 +31,10 @@ function App() {
 
     return () => clearTimeout(timer);
   });
+
+  useEffect(() => {
+    audio.play();
+  }, [])
 
   return (
     <div className="main-app">

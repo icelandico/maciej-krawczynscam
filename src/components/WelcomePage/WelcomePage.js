@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './index.css';
 import BgImg from './../../img/bg.jpg';
 
-export const WelcomePage = ({ isTime, timeLeft }) => {
+export const WelcomePage = ({ timeLeft }) => {
   const timerComponents = [];
 
   Object.keys(timeLeft).forEach((interval) => {
